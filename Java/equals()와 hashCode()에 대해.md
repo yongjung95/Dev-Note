@@ -7,15 +7,15 @@
     * Object 는 상속 관계상 가장 위에 있기 때문에 (모든 클래스가 Object 를 상속)
     * 어떤 객체라도 Object 의 메소드인 equals 와 hashcode 를 사용할 수 있게 됩니다.
 
-    ![img.png](equals()와%20hashCode()에대해.png)
+    ![img.png](사진파일/equals()와%20hashCode()에%20대해.png)
 
 
 * ### equals() 재정의
     * #### 예제 
-      ![img_3.png](equals()와%20hashCode()에대해_2.png)
+      ![img_3.png](사진파일/equals()와%20hashCode()에%20대해_2.png)
     * Object 에 정의된 equals 를 확인하면 
       
-        ![img_2.png](equals()와%20hashCode()에대해_1.png)
+        ![img_2.png](사진파일/equals()와%20hashCode()에%20대해_1.png)
       
     * 단순히 Object 의 == 로 비교하는 것을 확인할 수 있다.
     * 어떻게 객체가 동일한지 비교할 수 있을까?
@@ -25,7 +25,7 @@
           
 
 * 정리    
-    ![img.png](equal()와%20hashCode()에%20대해_3.png)
+    ![img.png](사진파일/equals()와%20hashCode()에%20대해_3.png)
     * ``` equals 메소드에 의해 true가 나오는 두 객체의 hashcode는 같아야 한다. ```
 
 

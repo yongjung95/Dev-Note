@@ -12,7 +12,7 @@
     
 
 * #### BigInteger 사용법
-    ![img.png](BigInteger%20사용법.png)
+    ![img.png](사진파일/BigInteger%20사용법.png)
   
 
 * #### 최대 공약수 구하는법
