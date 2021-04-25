@@ -23,6 +23,7 @@
     2. APT 를 이용하여 Entity 기반으로 querydsl plugin 을 실행시키면 prefix ```Q```가 붙는 큐클래스가 생성된다. 
        
         ``` Store -> QStore```
+       
        * APT 란?
        * Annotation Processing Tool 의 약자이다.
        * Annotation 이 있는 코드기준으로 새로운 파일을 만들 수 있고 complie 기능도 가능하다.
