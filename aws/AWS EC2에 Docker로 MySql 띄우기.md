@@ -6,4 +6,4 @@
 
 * `EC2` 또는 외부에서 접근 시 `docker`의 보안 그룹 포트를 열어줘야 한다.
 
-### [참고]('https://mungiyo.tistory.com/23')
+### [참고](https://mungiyo.tistory.com/23)
