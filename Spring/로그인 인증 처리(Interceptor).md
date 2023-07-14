@@ -1,4 +1,4 @@
-###로그인 인증 처리(Interceptor)
+### 로그인 인증 처리(Interceptor)
 
 * Interceptor
   * `Interceptor` 란 컨트롤러에 들어오는 요청 `HttpRequest` 와 컨트롤러가 응답하는 `HttpResponse` 를 가로채는 역할
@@ -8,12 +8,12 @@
 
 * 환경설정
   * `dispatcher-servlet.xml` 에 다음과 같이 등록을 해준다.
-     ![img.png](img.png)
+     ![img.png](사진파일/img.png)
     
 
 * 사용법
   * `HandlerInterceptorAdapter `를 상속받아 필요한 메서드만 오버라이딩하면 된다.
-  ![img_1.png](img_1.png)
+  ![img_1.png](사진파일/img_1.png)
     
 
 ### 참고

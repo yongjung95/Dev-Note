@@ -3,7 +3,7 @@
 * ### 트랜잭션이란 ?
     * 데이터베이스의 상태를 변경시키는 작업 또는 한번에 수행되어야하는 연산들을 의미한다.
     * 트랜잭션 작업이 끝나면 Commit 또는 Rollback 되어야한다.
-    ![img.png](사진파일/트랜잭션의%20성질.png)
+    ![img.png](사진파일/사진파일/트랜잭션의%20성질.png)
       
 
 
@@ -22,11 +22,11 @@
     * propagation
         * 트랜잭션 동작 도중 다른 트랜잭션을 호출할 때, 어떻게 할 것인지 지정하는 옵션이다
         
-            ![img.png](사진파일/트랜잭션%20propagation.png)
+            ![img.png](사진파일/사진파일/트랜잭션%20propagation.png)
         
     * isolation
         * 트랜잭션에서 일관성없는 데이터 허용 수준을 설정한다.
-            ![img.png](사진파일/트랜잭션%20isolation.png)
+            ![img.png](사진파일/사진파일/트랜잭션%20isolation.png)
     * noRollbackFor=Exception.class
         * 특정 예외 발생 시 rollback 하지 않는다.
         * 트랜잭션 작업 중 런타임 예외가 발생하면 롤백한다. 반면에 예외가 발생하지 않거나 체크 예외가 발생하면 커밋한다.

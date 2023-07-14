@@ -3,15 +3,15 @@
 * 각각을 마이크로하게 나눈 독립적인 서비스를 연결한 구조
 
 ### 모놀로틱 구조와 MSA
-![img.png](사진파일/img.png)
+![img.png](사진파일/사진파일/img.png)
 
-![img_1.png](사진파일/img_1.png)
+![img_1.png](사진파일/사진파일/img_1.png)
 
 ### 모놀로틱 구조의 한계
-![img_2.png](사진파일/img_2.png)
+![img_2.png](사진파일/사진파일/img_2.png)
 
 ### 모놀로틱 구조와 MSA 의 비교
-![img_3.png](사진파일/img_3.png)
+![img_3.png](사진파일/사진파일/img_3.png)
 
 ### MSA 의 단점
 * 성능 - 서비스 간 호출 시 API를 사용하기 때문에, 통신 비용이나, Latency가 그만큼 늘어나게 됩니다.
@@ -32,11 +32,11 @@
         * 부분적 장애에 대한 격리가 수월함
 
 ### 아마존과 넷플릭스
-![img_4.png](사진파일/img_4.png)
+![img_4.png](사진파일/사진파일/img_4.png)
 
 ## Spring MSA
 ### Spring Cloud Netflix Eureka
-![img_5.png](사진파일/img_5.png)
+![img_5.png](사진파일/사진파일/img_5.png)
 
 * 각각의 서비스 인스턴스들이 동적으로 확장, 축소 되더라도 인스턴스의 상태를 하나의 서비스로 관리할 수 있는 서비스
 * Service Discovery
@@ -45,17 +45,17 @@
 * Service Registry
     * 각각의 서비스가 자신의 위치(IP) 정보를 특정 서버에 등록 *Registry* 하는 작업을 말한다.
       우리는 Service Registry를 위해서 *Spring Cloud Netflix - Eureka Client*를 사용한다.
-![img_6.png](사진파일/img_6.png)
+![img_6.png](사진파일/사진파일/img_6.png)
 
 ### Spring Cloud Gateway
-![img_8.png](사진파일/img_8.png)
-![img_7.png](사진파일/img_7.png)
+![img_8.png](사진파일/사진파일/img_8.png)
+![img_7.png](사진파일/사진파일/img_7.png)
 
 * 단일 진입점 역할을 수행하며, 모든 API 요청을 받아 해당 요청을 처리할 적절한 마이크로서비스로 라우팅.
 * 보안, 인증, 로드밸런싱, 필터링, 변환 등의 기능을 제공하여 클라이언트와 마이크로서비스 간의 인터페이스를 관리하고, 부하 분산과 안전한 통신을 지원
 
 ### Spring Cloud Config
-![img_9.png](사진파일/img_9.png)
+![img_9.png](사진파일/사진파일/img_9.png)
 * 분산 시스템에서 외부화된 설정 정보를 서버 및 클라이언트에게 제공하는 시스템.
 * 외부에서 모든 환경에 대한 정보들을 관리해주는 중앙 서버.
 * 기본적으로 설정 정보 저장을 위해 git을 사용하도록 되어있어서 손쉽게 외부 도구들로 접근 가능하고, 버전 관리도 가능
@@ -82,7 +82,7 @@
   * 싱글 스레드 방식 
   * Non-Blocking 방식, 동기/비동기 모두 지원 
   * Reactor 기반의 Functional API (Mono, Flux)
-  ![img_10.png](사진파일/img_10.png)
+  ![img_10.png](사진파일/사진파일/img_10.png)
     ``` java
         WebClient webClient = WebClient.create("https://api.example.com");
 
